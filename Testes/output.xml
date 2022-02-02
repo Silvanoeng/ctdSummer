@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.9.7 on win32)" generated="20220201 21:39:13.305" rpa="false" schemaversion="2">
+<suite id="s1" name="Summer" source="D:\Digital-House\CTD-4-Bimestre\Testes\Summer.robot">
+<test id="s1-t1" name="Cadastro">
+<kw name="Abrir o site da aplicação" library="Summer" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220201 21:39:13.548" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:3000/'.</msg>
+<status status="PASS" starttime="20220201 21:39:13.547" endtime="20220201 21:39:17.464"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220201 21:39:17.464" endtime="20220201 21:39:17.599"/>
+</kw>
+<status status="PASS" starttime="20220201 21:39:13.547" endtime="20220201 21:39:17.600"/>
+</kw>
+<kw name="Abrir o site da aplicação" library="Summer">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220201 21:39:17.601" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:3000/'.</msg>
+<status status="PASS" starttime="20220201 21:39:17.601" endtime="20220201 21:39:21.174"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220201 21:39:21.174" endtime="20220201 21:39:21.298"/>
+</kw>
+<status status="PASS" starttime="20220201 21:39:17.601" endtime="20220201 21:39:21.298"/>
+</kw>
+<kw name="Clicar no botão (+) para cadastrar um novo filme" library="Summer">
+<kw name="wait and Click" library="Summer">
+<arg>${BOTAO_CADASTRAR}</arg>
+<kw name="wait Until Element is Viseble">
+<arg>${ELEMENTO}</arg>
+<msg timestamp="20220201 21:39:21.302" level="FAIL">No keyword with name 'wait Until Element is Viseble' found. Did you mean:
+    SeleniumLibrary.Wait Until Element Is Visible
+    SeleniumLibrary.Wait Until Element Is Not Visible
+    SeleniumLibrary.Wait Until Element Is Enabled</msg>
+<status status="FAIL" starttime="20220201 21:39:21.302" endtime="20220201 21:39:21.302"/>
+</kw>
+<kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<status status="NOT RUN" starttime="20220201 21:39:21.303" endtime="20220201 21:39:21.303"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220201 21:39:21.303" endtime="20220201 21:39:21.303"/>
+</kw>
+<status status="FAIL" starttime="20220201 21:39:21.299" endtime="20220201 21:39:21.304"/>
+</kw>
+<status status="FAIL" starttime="20220201 21:39:21.298" endtime="20220201 21:39:21.304"/>
+</kw>
+<kw name="Adicionar uma URL de imagem" library="Summer">
+<status status="NOT RUN" starttime="20220201 21:39:21.304" endtime="20220201 21:39:21.304"/>
+</kw>
+<kw name="Inserir &quot;Shrék 999&quot; como titulo do filme" library="Summer">
+<status status="NOT RUN" starttime="20220201 21:39:21.305" endtime="20220201 21:39:21.305"/>
+</kw>
+<kw name="Inserir &quot;O filmê mais legal do Thiago&quot; a descrição do filme" library="Summer">
+<status status="NOT RUN" starttime="20220201 21:39:21.305" endtime="20220201 21:39:21.305"/>
+</kw>
+<kw name="Clicar em &quot;Salvar&quot;" library="Summer">
+<status status="NOT RUN" starttime="20220201 21:39:21.305" endtime="20220201 21:39:21.306"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220201 21:39:21.306" endtime="20220201 21:39:23.499"/>
+</kw>
+<status status="FAIL" starttime="20220201 21:39:13.546" endtime="20220201 21:39:23.500">No keyword with name 'wait Until Element is Viseble' found. Did you mean:
+    SeleniumLibrary.Wait Until Element Is Visible
+    SeleniumLibrary.Wait Until Element Is Not Visible
+    SeleniumLibrary.Wait Until Element Is Enabled</status>
+</test>
+<test id="s1-t2" name="Edição">
+<kw name="Abrir o site da aplicação" library="Summer" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220201 21:39:23.504" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:3000/'.</msg>
+<status status="PASS" starttime="20220201 21:39:23.503" endtime="20220201 21:39:27.046"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220201 21:39:27.046" endtime="20220201 21:39:27.183"/>
+</kw>
+<status status="PASS" starttime="20220201 21:39:23.503" endtime="20220201 21:39:27.184"/>
+</kw>
+<kw name="Clicar no botão &quot;Detalhes&quot; de um cartão" library="Summer">
+<kw name="wait and Click" library="Summer">
+<arg>${BOTAO_DETALHES}</arg>
+<kw name="wait Until Element is Viseble">
+<arg>${ELEMENTO}</arg>
+<msg timestamp="20220201 21:39:27.188" level="FAIL">No keyword with name 'wait Until Element is Viseble' found. Did you mean:
+    SeleniumLibrary.Wait Until Element Is Visible
+    SeleniumLibrary.Wait Until Element Is Not Visible
+    SeleniumLibrary.Wait Until Element Is Enabled</msg>
+<status status="FAIL" starttime="20220201 21:39:27.188" endtime="20220201 21:39:27.188"/>
+</kw>
+<kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<status status="NOT RUN" starttime="20220201 21:39:27.189" endtime="20220201 21:39:27.189"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ELEMENTO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220201 21:39:27.189" endtime="20220201 21:39:27.189"/>
+</kw>
+<status status="FAIL" starttime="20220201 21:39:27.185" endtime="20220201 21:39:27.189"/>
+</kw>
+<status status="FAIL" starttime="20220201 21:39:27.184" endtime="20220201 21:39:27.190"/>
+</kw>
+<kw name="Alterar a URL da imagem" library="Summer">
+<status status="NOT RUN" starttime="20220201 21:39:27.191" endtime="20220201 21:39:27.191"/>
+</kw>
+<kw name="Alterar o título para: &quot;Shèeek&quot;" library="Summer">
+<status status="NOT RUN" starttime="20220201 21:39:27.191" endtime="20220201 21:39:27.192"/>
+</kw>
+<kw name="Alterar a descrição para: &quot;Descrição alterada&quot;" library="Summer">
+<status status="NOT RUN" starttime="20220201 21:39:27.192" endtime="20220201 21:39:27.192"/>
+</kw>
+<kw name="Clicar em &quot;Salvar_2&quot;" library="Summer">
+<status status="NOT RUN" starttime="20220201 21:39:27.193" endtime="20220201 21:39:27.193"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220201 21:39:27.193" endtime="20220201 21:39:29.369"/>
+</kw>
+<status status="FAIL" starttime="20220201 21:39:23.502" endtime="20220201 21:39:29.370">No keyword with name 'wait Until Element is Viseble' found. Did you mean:
+    SeleniumLibrary.Wait Until Element Is Visible
+    SeleniumLibrary.Wait Until Element Is Not Visible
+    SeleniumLibrary.Wait Until Element Is Enabled</status>
+</test>
+<status status="FAIL" starttime="20220201 21:39:13.307" endtime="20220201 21:39:29.373"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Summer">Summer</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220201 21:39:13.543" level="ERROR">Error in resource file 'D:\Digital-House\CTD-4-Bimestre\Testes\Summer.resource': Creating keyword 'wait and Input Text' failed: Invalid argument specification: Invalid argument syntax '${ELEMENTO} ${TEXTO}'.</msg>
+</errors>
+</robot>
